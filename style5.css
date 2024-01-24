@@ -1,0 +1,80 @@
+body{
+  background-color: #534D9C;
+  background-size: 100% auto;
+}
+.wrapper{
+  margin: auto;
+  border: 3px grey dashed;
+  max-width: 60%;
+}
+li {
+  list-style: none; }
+
+header a {
+  color: #4CAF50; /* Цвет непосещенных ссылок */
+}
+header a:hover {
+  color:#2cbffc /* Цвет ссылок при наведении на них курсора мыши */
+}
+
+.wrapper a:link {
+  color:  black; /* Цвет непосещенных ссылок */
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  background: #000;
+  background: #fff;
+}
+
+.header_links {
+    display: flex;
+    justify-content: center;
+}
+
+.header_link {
+    padding: 30px;
+    font-size: 40px;
+}
+
+
+.pic img {
+
+height: 50%;
+width: 50%;
+}
+
+
+.pic {
+    display: flex;
+    justify-content: center;}
+
+.art1 {
+  display: flex;}
+
+.text {
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+}
+
+
+button {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    font-size: 35px;
+padding: 5px;
+width: 200px;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}

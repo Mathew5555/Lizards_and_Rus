@@ -1,0 +1,69 @@
+body{
+  background-color: #534D9C;
+  background-size: 100% auto;
+}
+
+.wrapper{
+  border-radius: 20px;
+  border: 5px solid white;
+  margin: auto;
+  max-width: 900px;
+  background-color: none;
+  text-align: center;
+
+}
+
+.wrapper h1{
+  margin-top: 50px;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.wrapper p{
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.wrapper a{
+  margin: 10px;
+  font-size: 40px;
+}
+li {
+  list-style: none; }
+
+a {
+  color: #4CAF50; /* Цвет непосещенных ссылок */
+}
+a:hover {
+  color:#2cbffc /* Цвет ссылок при наведении на них курсора мыши */
+}
+
+
+button {
+    background-color: white;
+    border: 2px solid #4CAF50;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+
+.header {
+  width: 100%;
+  background: #000;
+  background: #fff;
+}
+
+.header_links {
+    display: flex;
+    justify-content: center;
+}
+
+.header_link {
+    padding: 30px;
+    font-size: 30px;
+
+}
+
